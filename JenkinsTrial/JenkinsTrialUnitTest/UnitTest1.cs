@@ -15,7 +15,7 @@ namespace JenkinsTrialUnitTest
         {
             int A = 2;
             int B = 3;
-            int expected = 6;
+            int expected = 5;
 
             MathematicsOperation maths = new MathematicsOperation();
             int actual = maths.Add(A, B);
