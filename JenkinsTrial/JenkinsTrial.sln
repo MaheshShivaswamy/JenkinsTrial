@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsTrial", "JenkinsTrial\JenkinsTrial.csproj", "{330137B4-92CB-4370-985C-4A09C7B266E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsTrialUnitTest", "JenkinsTrialUnitTest\JenkinsTrialUnitTest.csproj", "{58B7C3E0-83F8-4FD6-A2D9-71FD50BCBF3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D5A1039-CF07-4797-B54B-0EBAC68C924E}"
+	ProjectSection(SolutionItems) = preProject
+		JenkinsTrial.vsmdi = JenkinsTrial.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{A9EEEADC-4029-42F2-AC36-AF6F7E45F13E}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = JenkinsTrial.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{330137B4-92CB-4370-985C-4A09C7B266E6}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{330137B4-92CB-4370-985C-4A09C7B266E6}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{330137B4-92CB-4370-985C-4A09C7B266E6}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{330137B4-92CB-4370-985C-4A09C7B266E6}.Debug|x86.ActiveCfg = Debug|x86
+		{330137B4-92CB-4370-985C-4A09C7B266E6}.Debug|x86.Build.0 = Debug|x86
+		{330137B4-92CB-4370-985C-4A09C7B266E6}.Release|Any CPU.ActiveCfg = Release|x86
+		{330137B4-92CB-4370-985C-4A09C7B266E6}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{330137B4-92CB-4370-985C-4A09C7B266E6}.Release|Mixed Platforms.Build.0 = Release|x86
+		{330137B4-92CB-4370-985C-4A09C7B266E6}.Release|x86.ActiveCfg = Release|x86
+		{330137B4-92CB-4370-985C-4A09C7B266E6}.Release|x86.Build.0 = Release|x86
+		{58B7C3E0-83F8-4FD6-A2D9-71FD50BCBF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B7C3E0-83F8-4FD6-A2D9-71FD50BCBF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B7C3E0-83F8-4FD6-A2D9-71FD50BCBF3E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{58B7C3E0-83F8-4FD6-A2D9-71FD50BCBF3E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{58B7C3E0-83F8-4FD6-A2D9-71FD50BCBF3E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{58B7C3E0-83F8-4FD6-A2D9-71FD50BCBF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B7C3E0-83F8-4FD6-A2D9-71FD50BCBF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B7C3E0-83F8-4FD6-A2D9-71FD50BCBF3E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{58B7C3E0-83F8-4FD6-A2D9-71FD50BCBF3E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{58B7C3E0-83F8-4FD6-A2D9-71FD50BCBF3E}.Release|x86.ActiveCfg = Release|Any CPU
+		{A9EEEADC-4029-42F2-AC36-AF6F7E45F13E}.Debug|Any CPU.ActiveCfg = Debug
+		{A9EEEADC-4029-42F2-AC36-AF6F7E45F13E}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{A9EEEADC-4029-42F2-AC36-AF6F7E45F13E}.Debug|x86.ActiveCfg = Debug
+		{A9EEEADC-4029-42F2-AC36-AF6F7E45F13E}.Release|Any CPU.ActiveCfg = Release
+		{A9EEEADC-4029-42F2-AC36-AF6F7E45F13E}.Release|Mixed Platforms.ActiveCfg = Release
+		{A9EEEADC-4029-42F2-AC36-AF6F7E45F13E}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
