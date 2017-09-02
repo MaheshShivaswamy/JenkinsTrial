@@ -12,7 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{A9EEEADC-4029-42F2-AC36-AF6F7E45F13E}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "JenkinsTrialSetup", "Setup\Setup.vdproj", "{A9EEEADC-4029-42F2-AC36-AF6F7E45F13E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsTrialNUnitTest", "JenkinsTrialNUnitTest\JenkinsTrialNUnitTest.csproj", "{2C76ED22-019A-4FE8-959D-64968191DC47}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -53,6 +55,16 @@ Global
 		{A9EEEADC-4029-42F2-AC36-AF6F7E45F13E}.Release|Any CPU.ActiveCfg = Release
 		{A9EEEADC-4029-42F2-AC36-AF6F7E45F13E}.Release|Mixed Platforms.ActiveCfg = Release
 		{A9EEEADC-4029-42F2-AC36-AF6F7E45F13E}.Release|x86.ActiveCfg = Release
+		{2C76ED22-019A-4FE8-959D-64968191DC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C76ED22-019A-4FE8-959D-64968191DC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C76ED22-019A-4FE8-959D-64968191DC47}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2C76ED22-019A-4FE8-959D-64968191DC47}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2C76ED22-019A-4FE8-959D-64968191DC47}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2C76ED22-019A-4FE8-959D-64968191DC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C76ED22-019A-4FE8-959D-64968191DC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C76ED22-019A-4FE8-959D-64968191DC47}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2C76ED22-019A-4FE8-959D-64968191DC47}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2C76ED22-019A-4FE8-959D-64968191DC47}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
